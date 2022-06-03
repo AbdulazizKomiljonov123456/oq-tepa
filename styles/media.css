@@ -1,0 +1,12 @@
+@media (max-width:1104px) {
+    .two-ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:577px) {
+    .two-ul {
+        overflow: scroll;
+        flex-wrap: nowrap;
+    }
+}
